@@ -342,6 +342,11 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.0.0"
+  flutter_localizations:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_riverpod:
     dependency: "direct main"
     description:
@@ -360,6 +365,22 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  forui:
+    dependency: "direct main"
+    description:
+      name: forui
+      sha256: "2a151e90ca6ca10cd5ae55f3e6fb9a971830863d9c82ad607b5fd6eecb553ec5"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.20.3"
+  forui_assets:
+    dependency: transitive
+    description:
+      name: forui_assets
+      sha256: "503378699c4cd77c5a5d66c86af8376b0bced0c1335d805b7af65c11008d5345"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.20.1"
   freezed_annotation:
     dependency: transitive
     description:
@@ -424,6 +445,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "4.8.0"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.20.2"
   io:
     dependency: transitive
     description:
@@ -528,6 +557,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.6.4"
+  nitrogen_types:
+    dependency: transitive
+    description:
+      name: nitrogen_types
+      sha256: "5d4ec453aea14e34607bc6021ff1381192e8fcd8541bf103638baa4d013e668f"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.4.0+1"
   node_preamble:
     dependency: transitive
     description:
@@ -853,6 +890,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.4.1"
+  sugar:
+    dependency: transitive
+    description:
+      name: sugar
+      sha256: a0a97f1d3552a3ef4cbec7c6e62c7b52c151cd5c11e984e8311700a918f73dc5
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.0.0"
   term_glyph:
     dependency: transitive
     description:
@@ -990,5 +1035,5 @@ packages:
     source: hosted
     version: "2.2.4"
 sdks:
-  dart: ">=3.10.0 <4.0.0"
-  flutter: ">=3.38.0"
+  dart: ">=3.11.0 <4.0.0"
+  flutter: ">=3.41.0"
